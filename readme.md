@@ -1,12 +1,10 @@
-# Project Title
-
-### Next.JS Configs for Cpanel
+# Next.JS Configs for Cpanel
 
 #### Steps 1:
 
 -   inside : package.json change script
 
-```
+```bash
 "start": "NODE_ENV=production node server.js",
 ```
 
@@ -53,8 +51,13 @@ app.prepare().then(() => {
 
 #### Steps 3:
 
--   npm run build
-    After build project NextJS creat out directory
+-   Build NextJS App
+
+```bash
+npm run build
+```
+
+After build project NextJS creat out directory
 
 #### Steps 4:
 
